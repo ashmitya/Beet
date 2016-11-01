@@ -1,0 +1,54 @@
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	margin:0px;
+}
+
+body{
+	background-image: url("img/intro-bg.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	font-family: sans-serif;
+	
+}
+
+section{
+	margin:auto;
+}
+
+#section1 h1{
+	font-size: 50px;
+    /*margin: 2%;*/
+}
+
+#section1 h3{
+	margin: 2%;
+}
+
+a{
+	margin:1%
+}
+
+#section5 h2, #section5 div{
+	display: inline-block;
+}
+
+
+#section1, #section5{
+	margin: 10% 5%;
+	color:white;
+	text-align: center;
+}
+
+#section2, #section3, #section4{
+	background: white;
+}
+
+div{
+	vertical-align: middle;
+	width: 40%;
+	padding: 8% 5%;
+	display: inline-block;
+}

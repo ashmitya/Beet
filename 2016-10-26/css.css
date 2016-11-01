@@ -1,0 +1,112 @@
+
+*{
+	margin: 1%;	
+	padding:0px;
+}
+
+.main{
+	width:80%;
+	height:800px;
+	margin:auto;
+	border: 2px solid green;
+}
+
+.section{
+	border: 2px solid red;
+}
+
+.sub-section{
+	border: 2px solid blue;
+	display: inline-block;
+	height: 66%;
+}
+
+.ss-section{
+	border: 2px solid #f2d968;
+}
+/*sections*/
+#header{
+	height:10%;
+}
+
+#nav-name{
+	height:10%;
+}
+
+#main{
+	height:60%;
+}
+
+#footer{
+	height: 11%;
+}
+
+/*sub-sections*/
+/*header*/
+#logo{
+	width: 25%;
+}
+
+#name{
+	width: 40%;
+}
+
+#contacts{
+	width: 25%;
+}
+
+/*header/ss-section*/
+.ss5{
+	height: 45%;
+}
+
+.ss6{
+	height: 25%;
+}
+
+/*nav*/
+.nav{
+	width: 22%;
+	
+}
+
+/*main*/
+#left-main{
+	width: 25%;
+	height: 94%;
+}
+
+#right-main{
+	width: 69%;
+	height: 94%;
+}
+
+/*main/ss-section*/
+.ss1{
+	height: 65%;
+}
+
+.ss2{
+	height: 27%;
+}
+
+/*footer*/
+#f-left{
+	width: 25%;
+}
+
+#f-center{
+	width: 40%;
+}
+
+#f-right{
+	width: 25%;
+}
+/*footer/ss-sections*/
+.ss3{
+	height: 15%;
+}
+
+.ss4{
+	height: 15%;
+}

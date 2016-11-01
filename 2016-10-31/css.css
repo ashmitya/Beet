@@ -1,0 +1,38 @@
+body{
+	font-family: 'IM Fell English', serif;
+}
+
+header{
+	text-align:center;
+}
+
+main{
+	max-width:60%;
+	margin:auto;
+}
+
+div{
+	columns: 150px auto;
+	column-rule: 1px solid black;
+}
+
+ul{
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
+
+li{
+	display:inline-block;
+	height: 50px;
+	width: 100px;
+	line-height: 2.9;
+}
+
+a{
+	display:inline-block;
+	margin:auto;
+}
+
+h3{
+	border-bottom: 1px solid black;
+}

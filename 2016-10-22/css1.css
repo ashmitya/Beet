@@ -1,0 +1,5 @@
+body{
+	background-color: blue;
+	background-image: url("backGround.jpg");
+	background-repeat: repeat-x;
+}
