@@ -5,6 +5,10 @@
 	margin:0px;
 }
 
+html, main, body, section{
+	height: 100%;
+}
+
 body{
 	background-image: url("img/intro-bg.jpg");
 	background-repeat: no-repeat;
@@ -14,30 +18,18 @@ body{
 	
 }
 
-section{
-	margin:auto;
-}
 
 #section1 h1{
 	font-size: 50px;
-    /*margin: 2%;*/
+	
 }
 
 #section1 h3{
 	margin: 2%;
 }
 
-a{
-	margin:1%
-}
-
-#section5 h2, #section5 div{
-	display: inline-block;
-}
-
 
 #section1, #section5{
-	margin: 10% 5%;
 	color:white;
 	text-align: center;
 }
@@ -46,9 +38,32 @@ a{
 	background: white;
 }
 
+#section5{
+	background-image: url("img/banner-bg-u146-fr.jpg");
+	background-size:cover;
+}
+
 div{
 	vertical-align: middle;
-	width: 40%;
-	padding: 8% 5%;
 	display: inline-block;
+	height: 100%;
+	width: 45%;
+	padding: 5%;
+	
+}
+
+#section1 div, #section5 div{
+	margin-top: 15%;
+}
+
+a{
+	margin:1%
+}
+
+#section2 img, #section3 img, #section4img img{
+	height: 100%;
+}
+
+a img:active{
+	background-image: url("img/u85-r.png");
 }
