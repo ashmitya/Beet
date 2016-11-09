@@ -172,7 +172,7 @@ main{
 
 /*contscts*/
 form{
-	padding-top: 15%;
+	padding-top: 10%;
 	margin:auto;
 	width:80%;
 }
@@ -180,7 +180,7 @@ form{
 .contact {
 	display:inline-block;
     height:50px;
-    width:45%;
+    width:49%;
     position:relative;
     border: 2px solid #3c4955;
     border-radius:7px;
@@ -209,12 +209,30 @@ form{
 }
 
 .contact-m img {
-    height:228px;
+    height:224px;
     position:absolute;
     left:0;
 }
 
 .contact-m input {
-	height:228px;
+	height:224px;
     width:100%;
+}
+
+input[name="envoyer"]{
+	margin-top:5%;
+	width:100%;
+	height: 40px;
+	border:none;
+	background-color:#48bf72;
+	border-radius: 5px;
+	color:white;
+}
+
+/*footer*/
+footer{
+	margin-top:5%;
+	height: 200px;
+	width:100%;
+	background-color: #3c4955;
 }
