@@ -4,10 +4,22 @@
           box-sizing: border-box;
 }
 
-@font-face{
-	font-family: "Big John";
-	src: url("fonts/BIG JOHN.otf");
+header h1, section h1{
+	font-family: "big_johnregular";
 }
+
+header h2{
+	font-family: "slim_joeregular";
+}
+
+section p, section{
+	font-family: "latoregular";
+}
+
+input{
+	font-family: "latobold";
+}
+
 /*header*/
 
 header{
