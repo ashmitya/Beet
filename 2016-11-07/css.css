@@ -4,6 +4,10 @@
           box-sizing: border-box;
 }
 
+@font-face{
+	font-family: "Big John";
+	src: url("fonts/BIG JOHN.otf");
+}
 /*header*/
 
 header{
@@ -194,6 +198,7 @@ form{
 }
 
 .contact input {
+	padding-left: 60px;
 	height:46px;
     width:100%;
 }
@@ -215,6 +220,7 @@ form{
 }
 
 .contact-m input {
+	padding-left: 60px;
 	height:224px;
     width:100%;
 }
@@ -235,4 +241,20 @@ footer{
 	height: 200px;
 	width:100%;
 	background-color: #3c4955;
+}
+
+#footer-section2,#footer-section1{
+	display:inline-block;
+	width:47%;
+	padding-top:10%;
+	vertical-align:middle;
+}
+
+#footer-section2{
+	text-align:right;
+}
+
+#footer-section1{
+	text-align:left;
+	color:white;
 }
