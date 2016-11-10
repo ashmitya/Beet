@@ -1,0 +1,53 @@
+header{
+	background-image: url("images/bg.png");
+	height: 1200px;
+}
+
+.grey-block{
+	opacity:0.4;
+	background-color:grey;
+	width:100%;
+}
+
+header #nav{
+	position:fixed;
+	height:80px;
+	top:10px;
+}
+
+.width-set{
+	width:800px;
+	margin:auto;
+}
+
+.width-set #logo{
+	float:left;
+	vertical-align:middle;
+}
+
+#nav .width-set ul{
+	float:right;
+	margin-top:4%;
+}
+
+#nav .width-set li{
+	display:inline;
+}
+
+#header-title{
+	height: 35%;
+    position: absolute;
+    top: 200px;
+}
+
+.width-set .nav-item{
+	text-decoration:none;
+	color:white;
+}
+
+.yellow-button{
+	width:100px;
+	height: 40px;
+	background-color: yellow;
+	color:black;
+}
