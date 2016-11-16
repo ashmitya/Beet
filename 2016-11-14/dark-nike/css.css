@@ -87,15 +87,6 @@ body{
 	color: #9da1a6;
 }
 
-.rating{
-	padding-left: 0;
-}
-
-.rating li{
-	display:inline-block;
-	padding-left: 0;
-}
-
 .add-to-chart select{
 	-webkit-appearance: none;
 	width: 60px;
@@ -112,4 +103,22 @@ body{
 	background: #202835;
 	color: #9da1a6;
 	border: 1px solid #4f5560;
+}
+
+.rating{
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:flex-end;
+}
+
+input.star { 
+	display: none; 
+}
+
+input.star:checked ~ label.star:before{
+  color: #FD4;
+}
+
+label.star:before {
+  content: '\2605';
 }
