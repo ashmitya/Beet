@@ -30,6 +30,8 @@ main{
 
 main p{
 	margin: 0px;
+	color:grey;
+	font-size: 14px;
 }
 
 main h1{
