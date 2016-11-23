@@ -16,6 +16,7 @@ body{
 	justify-content:space-around;
 	align-items:center;
 	flex-wrap:wrap;
+	height:500px;
 }
 
 .fb-block{
@@ -28,7 +29,7 @@ body{
 	align-items:center;
 }
 
-.fb-block--center{
+.fb-block:hover{
 	height:500px;
 }
 
