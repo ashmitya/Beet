@@ -1,0 +1,58 @@
+/*logo*/
+#logo{
+	width:69px;
+	height:71px;
+}
+
+#logo .cls-1,#logo .cls-2 {
+    fill: none;
+    stroke-width: 2px;
+}
+
+#logo .cls-1 {
+    stroke: #fff;
+}
+
+#logo .cls-1,#logo .cls-2,#logo .cls-3 {
+    fill-rule: evenodd;
+}
+
+#logo .cls-2 {
+    stroke: #f6f7fc;
+}
+
+#logo .cls-3,#logo .cls-4 {
+    fill: #fff;
+}
+
+/*design*/
+#design .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        width:79.969px;
+        height:83.03px;
+      }
+
+/*deployment*/
+#deployment .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        width:79px; 
+        height:76px; 
+      }
+
+/*product_manager*/
+#product_manager .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        width:78.969px; 
+        height:91px;
+      }
+
+/*scroll*/
+#scroll .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        /*width:23px; */
+        /*height:37px; */
+      }
