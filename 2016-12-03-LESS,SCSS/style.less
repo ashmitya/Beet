@@ -1,0 +1,69 @@
+@dirty-yellow: #ffcc00;
+@justify:space-between;
+@align:center;
+@direction:column;
+
+// MIXIN for flex
+.flexBox(@direction, @justify, @align) {
+	display:flex;
+	flex-direction:@direction;
+	justify-content:@justify;
+	align-items:@align;
+}
+
+.title{
+	width:40%;
+	text-align:center;
+	margin:auto;
+	
+	.flexBox(@direction, @justify, @align:stretch);
+}
+
+.title-name{
+	color:@dirty-yellow;
+}
+
+.fire-line{
+	fill:@dirty-yellow;
+	position: relative;
+	
+	&:before, &:after{
+		display: block;
+	    content: '';
+	    position: absolute;
+	    height: 1px;
+	    width: 48%;
+	    top: 50%;
+	  	background-color:@dirty-yellow;
+	}
+	&:before{
+		left: 0;
+	} 
+	&:after{
+		right: 0;
+	}
+	
+}
+
+.horizont-line{
+	height: 1px;
+	width: 30%;
+	background-color:@dirty-yellow;
+	margin:auto;
+}
+
+.details{
+	width:60%;
+	margin:auto;
+	.flexBox(@direction:row, @justify, @align:stretch);
+	
+	.arrow{
+		width:5%;
+		.flexBox(@direction:row, @justify, @align:stretch);
+	}
+
+	.details-1-2{
+		width:45%;
+		.flexBox(@direction, @justify, @align);
+	}
+}

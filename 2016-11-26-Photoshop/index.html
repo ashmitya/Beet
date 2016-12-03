@@ -16,11 +16,11 @@
 				</div>
 				<nav class="nav">
 					<ul>
-						<li class="nav__item"><a href="#">Services</a>
-						<li class="nav__item"><a href="#">Portfolio</a>
-						<li class="nav__item"><a href="#">Testimonials</a>
+						<li class="nav__item"><a href="#services">Services</a>
+						<li class="nav__item"><a href="#portfolio">Portfolio</a>
+						<li class="nav__item"><a href="#testimonials">Testimonials</a>
 						<li class="nav__item"><a href="#">About</a>
-						<li class="nav__item"><a href="#">Contact</a>
+						<li class="nav__item"><a href="#contscts">Contact</a>
 					</ul>
 				</nav>
 			</div>	
@@ -34,10 +34,10 @@
 		</section>
 	</header>
 	<main>
-		<section class="main-cont">
+		<section class="main-cont" id="services">
 			<h1>OUR SERVICES</h1>
 			<div class="line--blue"></div>
-			<div class="services">
+			<div class="services" >
 				<div class="service">
 					<div class="service-icon"><img src="img/icon1.png" alt="icon"></div>
 					<h3>LOGO DESIGN</h3>
@@ -64,7 +64,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="main-cont portfolio">
+		<section class="main-cont portfolio" id="portfolio">
 			<h1>PORTFOLIO</h1>
 			<div class="line--blue"></div>
 			<div class="port-nav">
@@ -104,7 +104,7 @@
 			</div>
 			<a class="button button--port" href="#">SHOW MORE</a>
 		</section>
-		<section class="main-cont brands">
+		<section class="main-cont brands" id="testimonials">
 			<h1>Recent Brands we’ve worked with</h1>
 			<div class="line--blue"></div>
 			<div class="brands-list">
@@ -128,10 +128,75 @@
 				</a>
 			</div>
 		</section>
-		<section class="main-cont">
+		<section class="main-cont reviews">
 			<h1>Recent Brands we’ve worked with</h1>
 			<div class="line--blue"></div>
+			<div class="reviews-slides">
+				<a href="#"><</a>
+				<div class="review-desc">
+					<div>
+						<img src="img/face1.png" alt="face">
+						<img src="img/face1.png" alt="face">
+						<img src="img/face1.png" alt="face">
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed hic natus iste, doloribus nisi unde dolorum. Mollitia aliquam amet dolores quod id perspiciatis similique eius nihil. Illo esse dolores voluptas.</p>
+					<div>
+						
+					</div>
+				</div>
+				<a href="#">></a>
+			</div>
 		</section>
+		<section id="contscts">
+			<div class="contacts-left">
+				<h2>Contsct us</h2>
+				<div>
+					<h3>Our Address</h3>
+					<p>House No,11132, Sector 31, Gurgaon 122001  India</p>
+				</div>
+				<div>
+					<h3>Call Us</h3>
+					<p>+ 91-9876543210<br>+ 01262219018</p>
+				</div>
+				<div>
+					<h3>Email Us</h3>
+					<p>someaddress@gmail.com</p>
+				</div>
+			</div>
+			<div class="contacts-right">
+				<div class="cont-list">
+					<a class="cont-list__item" href="#">Home</a>
+					<a class="cont-list__item" href="#">About</a>
+					<a class="cont-list__item" href="#">Services</a>
+					<a class="cont-list__item" href="#">Blog</a>
+					<a class="cont-list__item" href="#">Contact Us</a>
+				</div>
+				<form class="cont-details" action="">
+					<div class="cont-details__top">
+						<div class="form__1-2">
+							<label for="name">Name:</label><br>
+							<input class="input" id="name" type="text">
+						</div>
+						<div class="form__1-2">
+						<label for="subj">Subject:</label><br>
+						<input class="input" id="subj" type="text">
+						</div>
+					</div>
+					<label for="message">Your Message</label><br>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+					<button class="button button-submit" >Send Message</button>
+				</form>
+			</div>
+		</section>
+		<footer class="v-footer">
+			<p>© 2016 Nishant Bazzad</p>
+			<div>
+				<img src="img/linkedin.png" alt="">
+				<img src="img/linkedin.png" alt="">
+				<img src="img/linkedin.png" alt="">
+				<img src="img/linkedin.png" alt="">
+			</div>
+		</footer>
 	</main>
 </body>
 </html>
