@@ -1,0 +1,21 @@
+nav{
+	
+}
+
+.menu > *{
+	list-style:none;
+	float:left;
+	background: #76bcb4;
+	width: 150px;
+	font-size: 25px;
+	
+}
+
+.sub-menu{
+	display:none;
+	list-style:none;
+}
+
+.active:hover .sub-menu{
+	display:block;
+}

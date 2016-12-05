@@ -1,0 +1,14 @@
+*{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+}
+
+.ba-header{
+	background-color: #23232e;
+	height:400px;
+	width:400px;
+}
+
+section{
+	height:100%;
+	width:100%;
+}

@@ -1,0 +1,40 @@
+<!--
+Атрибут rowspan позволяет обьединять ячейки.
+Для этого необходимо уменьшить количество ячеек в строке, и у одной установить соответствующий colspan.
+-->
+
+<html>
+    <head>
+        <title>Атрибут rowspan</title>
+    </head>
+    <body>
+            <h4>Таблица с объединенными колонками:</h4>
+            <table border="1">
+                <tr>
+                    <th>First Name:</th>
+                    <td>Bill Gates</td>
+                    <td>MyTelephon</td>
+                </tr>
+                <tr>
+                    <th rowspan="3">Telephone:</th>
+                    <td>555 77 854</td>
+                    <td>999 999 999</td>                    
+                   
+                </tr>
+                        
+                <tr>
+                    
+                    <td>555 77 854</td>
+                    <td>111 11 111</td>                    
+                    
+                 </tr>
+
+                <tr>
+                    
+                    <td>555 77 854</td>
+                     <td></td>                   
+                    
+                 </tr>
+            </table>
+    </body>
+</html>

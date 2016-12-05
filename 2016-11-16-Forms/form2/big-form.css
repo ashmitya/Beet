@@ -1,0 +1,38 @@
+*{
+	transition: all .1s ease-in;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+form{
+	width: 600px;
+	margin: auto;
+}
+
+fieldset{
+	display: flex;
+}
+
+label{
+	display: flex;
+}
+
+.pers_info span, .cont_info span{
+    width: 20%;
+    margin-right:2%;
+}
+
+.pers_info input, .cont_info input{
+    width: 70%;
+}
+
+textarea {
+  vertical-align: top;
+  resize:none;
+  width: 70%;
+}
+
+.fav-animals div{
+	columns:4;
+}

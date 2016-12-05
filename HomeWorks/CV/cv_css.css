@@ -1,0 +1,33 @@
+body{
+	/*margin: auto;*/
+	font-family: sans-serif;
+	background-image: url("img/white-brick.jpg");
+    padding: 0px 300px 50px 300px;
+    color: #060433;
+}
+
+hr {
+	/*color: #0a2551;*/
+	background-color: #771308;
+	height: 1px;
+}
+
+h1{
+	color:#0e171c;
+}
+
+h2{
+	color:#01194f;
+}
+
+li{
+	color: #1a417f;
+}
+
+p{
+	color: #1a417f;
+}
+
+/*[href~="facebook"]{
+	background-image: url();
+}*/

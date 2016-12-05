@@ -1,0 +1,124 @@
+*{
+	transition: all .1s ease-in;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'museosansw01-rounded100Rg';
+    src: url('fonts/museo_sans_w01_rounded_100-webfont.woff2') format('woff2'),
+         url('fonts/museo_sans_w01_rounded_100-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	background: url("img/bg_stripes.jpg");
+	background-size: cover;
+	width:100%;
+	height:600px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family: 'museosansw01-rounded100Rg';
+}
+
+.product-card{
+	border-radius: 15px;
+	padding: 15px;
+	background-color: #111a28;
+	width:685px;
+	height:390px;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.product-card__details{
+	display:flex;
+	
+}
+
+.photos{
+	padding-top: 10%;
+	width: 60%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.photos-colors {
+	display:flex;
+	justify-content:center;
+	margin-top: 20%;
+}
+
+.photos-colors *{
+	width: 10px;
+	height:10px;
+	border-radius:5px;
+	margin: 5px;
+}
+
+.photos-colors__black{
+	background-color:black;
+}
+
+.photos-colors__white{
+	background-color:white;
+}
+
+.photos-colors__red{
+	background-color:red;
+}
+
+.photos-colors__yellow{
+	background-color:yellow;
+}
+
+.photos-colors *:hover{
+	border: 2px solid white;
+}
+
+.desc{
+	padding-left:5%;
+	color: #9da1a6;
+}
+
+.add-to-chart select{
+	-webkit-appearance: none;
+	width: 60px;
+	padding: 2%;
+	color: #9da1a6;
+	border: 1px solid #4f5560;
+	background: url("img/new-arrow2.png") no-repeat right #111a28;
+	overflow: hidden;
+}
+
+.add-to-chart button{
+	width: 150px;
+	height:40px;
+	background: #202835;
+	color: #9da1a6;
+	border: 1px solid #4f5560;
+}
+
+.rating{
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:flex-end;
+}
+
+input.star { 
+	display: none; 
+}
+
+input.star:checked ~ label.star:before{
+  color: #FD4;
+}
+
+label.star:before {
+  content: '\2605';
+}

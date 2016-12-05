@@ -1,0 +1,70 @@
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	margin:0px;
+	font-family: sans-serif;
+}
+
+main{
+	width:900px;
+	height:500px;
+	text-align:center;
+}
+
+section{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	margin-left:-0.25em;
+}
+
+.plan_name{
+	height:10%;
+	background-color: #4ba03b;
+	color: #287c1a;
+	font-size: 2em;
+}
+
+.price{
+    height:20%;
+    color: #1f7714;
+    font-size: 2em;
+    font-weight: bold;
+    background: #7ecb3d; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#7ecb3d, #50ab39); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#7ecb3d, #50ab39); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#7ecb3d, #50ab39); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#7ecb3d, #50ab39); /* Standard syntax (must be last) */
+}
+
+span{
+	font-size:0.5em;
+	font-weight: normal;
+}
+
+.details{
+	height:70%;
+}
+
+li{
+	display:inline-block;
+}
+
+.check_yes:before {
+    content: url("img/check1.png");
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+.check_no:before {
+    content: url("img/check0.png");
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+a{
+	background-color: #efab70;
+	width: 100px;
+	
+}

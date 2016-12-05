@@ -1,0 +1,118 @@
+*{
+	transition: all .1s ease-in;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	    font-family: 'Montserrat', sans-serif;
+	    color: #60606e;
+}
+
+.main-header{
+	background-image: url("img/bg.png");
+	background-size: cover;
+	padding: 2% 5%;
+}
+
+.main-header__top, .about-us, .benefits, .pictures, .main-footer{
+	display:flex;
+	justify-content:space-between;
+}
+
+.main-header__top--home{
+	display:inline-block;
+	margin: 0px;
+}
+
+.main-header__top--home a, .main-header__center a{
+	text-decoration:none;
+} 
+
+.main-header__center{
+	margin: 15%;
+	text-align: center;
+	
+}
+
+section{
+	margin: 5%;
+}
+
+.about-us__block, .main-footer__block{
+	width:48%;
+}
+
+.centered-block{
+	text-align:center;
+}
+
+.benefit{
+	width: 30%;
+}
+
+.benefit__title h2{
+	display: inline-block;
+}
+
+.benefit__title img{
+	background-color: #7beec7;
+	vertical-align:middle;
+}
+
+.main-footer{
+	background-color: #7beec7;
+	padding: 5%;
+}
+
+.main-footer__left-block h1{
+	color:white;
+}
+
+.main-footer__left-block{
+	padding-bottom: 3%;
+}
+
+.main-footer__left-block a{
+	padding: 2%;
+	background:white;
+	color: #7beec7;
+	text-decoration:none;
+	border:none;
+}
+
+.main-footer__right-block{
+	background-color: white;
+	padding: 0% 2% 2% 2%;
+}
+
+.main-footer__form{
+	display:flex;
+}
+
+.main-footer__form input{
+	width: 70%;
+    height: 40px;
+}
+
+.main-footer__form button{
+	width: 30%;
+	height: 40px;
+	background-color: #7beec7;
+	color:white;
+	text-decoration:none;
+	border:none;
+}
+
+.stripes{
+	background: linear-gradient(white,white,#7beec7);	
+}
+
+
+@media screen and (max-width: 640px){
+	.about-us, .benefits, .pictures, .main-footer{
+		flex-direction:column;
+	}
+
+	.about-us__block, .benefit, .main-footer__block{
+		width:100%;
+	}
+}

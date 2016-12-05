@@ -1,0 +1,33 @@
+label{
+	color:#648880;
+}
+
+input[type="submit"]{
+	width:150px;
+	height:50px;
+	border-radius:5px;
+	background-color: #648880;
+	color:white;
+	border:none;
+}
+
+.input{
+	width:250px;
+	height:30px;
+	border: 1px solid grey;
+	border-radius:5px;
+	color: black;
+}
+
+.input::-webkit-input-placeholder{
+	color: grey;
+}
+
+.comments{
+	height:150px;
+    resize: none;
+}
+
+.number{
+	width: 50px;
+}
