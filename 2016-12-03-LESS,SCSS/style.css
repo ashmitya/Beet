@@ -37,7 +37,8 @@
   margin: auto;
 }
 .details {
-  width: 60%;
+  padding-top: 5%;
+  max-width: 60%;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -46,15 +47,92 @@
 }
 .details .arrow {
   width: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
-}
-.details .details-1-2 {
-  width: 45%;
+  color: #ffcc00;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: stretch;
+}
+.details .vertical-line {
+  width: 1px;
+  background-color: #ffcc00;
+}
+.details .details-1-2 {
+  width: 40%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+.details .details-1-2 .details-1-2__icons {
+  margin-top: 5%;
+}
+.details .details-1-2 .details-1-2__icons .fa {
+  width: 20px;
+  height: 20px;
+  color: grey;
+}
+.details .details-1-2 .details-desc {
+  text-align: center;
+}
+.details .details-1-2 .view-button {
+  border: 1px solid #ffcc00;
+  padding: 2%;
+  font-weight: 700;
+  margin-top: 3%;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 8em;
+  text-align: center;
+}
+.details-1-2-picture {
+  position: relative;
+}
+.details-1-2-picture .outer-frame {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+}
+.details-1-2-picture .outer-frame-top-left {
+  border-top: 1px solid #ffcc00;
+  border-left: 1px solid #ffcc00;
+  top: 0px;
+  left: 0px;
+}
+.details-1-2-picture .outer-frame-top-right {
+  border-top: 1px solid #ffcc00;
+  border-right: 1px solid #ffcc00;
+  top: 0px;
+  right: 0px;
+}
+.details-1-2-picture .outer-frame-bottom-left {
+  border-bottom: 1px solid #ffcc00;
+  border-left: 1px solid #ffcc00;
+  left: 0px;
+  bottom: 0px;
+}
+.details-1-2-picture .outer-frame-bottom-right {
+  border-bottom: 1px solid #ffcc00;
+  border-right: 1px solid #ffcc00;
+  right: 0px;
+  bottom: 0px;
+}
+.details-1-2-picture img {
+  width: 70%;
+  border: 1px solid #ffcc00;
+}
+.details-tabs {
+  text-align: center;
+  margin-top: 4%;
+}
+.details-tabs .details-li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: #ffcc00;
 }
