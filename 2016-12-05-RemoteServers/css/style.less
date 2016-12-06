@@ -1,0 +1,240 @@
+@justify:space-between;
+@align:center;
+@direction:column;
+
+
+// MIXIN for flex
+.flexBox(@direction, @justify, @align) {
+	display:flex;
+	flex-direction:@direction;
+	justify-content:@justify;
+	align-items:@align;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,600,700');
+
+*{
+	transition: all .1s ease-in;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.gr-header{
+	background-image: url("../img/header-bg.jpg");
+	background-size:cover;
+	height: 100vh;
+	.flexBox(@direction, @justify:space-around, @align);
+	color:white;
+	
+	.gr-header__social{
+		width: 30%;
+		.flexBox(@direction:row, @justify:space-around, @align);
+		
+		.gr-header__social__link{
+			width:30px;
+			height:30px;
+			text-decoration:none;
+			.flexBox(@direction, @justify:center, @align:center);
+
+			&:hover{
+				border:2px solid white;
+				border-radius:15px;
+				outline:0;
+			}
+		}
+
+		.fa{
+			color:white;
+		}
+	}
+
+	.gr-header__title{
+		font-weight: 100;
+		
+		span{
+			font-weight: 600;
+		}
+	}
+	
+	.gr-header__numbers{
+		width:60%;
+		.flexBox(@direction:row, @justify:space-around, @align);
+		flex-wrap:wrap;
+
+		.gr-header__number{
+			width:150px;
+			height:150px;
+			border: 2px solid white;
+			border-radius:75px;
+			font-weight: 600;
+			text-transform: uppercase;
+			text-align:center;
+			padding-top: 1%;
+			
+			span{
+				font-size:72px;
+			}
+		}
+	}	
+}
+
+.gr-brands{
+	.flexBox(@direction:row, @justify, @align);
+	width:70%;
+	margin:auto;
+	padding: 2% 0%;
+	
+	img{
+		width:20%;
+	}
+}
+
+.gr-development{
+	.flexBox(@direction:row, @justify, @align:stretch);
+	background-image: url("../img/index3_02.jpg");
+	background-size:cover;
+	margin:auto;
+	padding: 2% 15%;
+	
+	.gr-development__item{
+		.flexBox(@direction, @justify, @align:flex-start);
+		width:30%;
+
+
+		h2{
+			font-size:15px;
+			font-weight:700;
+			text-transform: uppercase;
+			margin-top:10%;
+		}
+		
+		p{
+			color:black;
+			line-height:23px;
+		}
+
+		a{
+			font-size:13px;
+			font-weight:700;
+			background-color:#262626;
+			border:none;
+			width:70px;
+			height:25px;
+			text-decoration:none;
+			color:white;
+			text-align:center;
+			padding:1%;
+			margin-top:7%;
+		}
+	}
+}
+
+.gr-subscribe{
+	.flexBox(@direction:row, @justify, @align:flex-start);
+	background-color:#51aa92;
+	margin:auto;
+	padding: 2% 15%;
+	position:relative;
+	color:white;
+	
+	.gr-subscribe__title{
+		width:30%;
+		h2{
+			font-size:30px;
+			font-weight:700;
+			line-height:25px;
+		}
+	}
+
+	.gr-subscribe__details{
+		width:60%;
+		
+		p{
+			font-size:15px;
+			font-weight:100;
+			line-height:25px;
+		}
+	}
+
+	.gr-subscribe__subscribe{
+		position:absolute;
+		bottom: -12px;
+	    right: 50%;
+	}
+}
+
+.gr-aboutus{
+	.flexBox(@direction:row, @justify, @align:flex-start);
+	margin:auto;
+	padding: 2% 15%;
+	
+	.gr-aboutus__title{
+		.flexBox(@direction, @justify, @align:flex-start);
+		width:40%;
+		
+		h2{
+			font-size:30px;
+			font-weight:700;
+			line-height:25px;
+		}
+
+		p{
+			font-size:15px;
+			font-weight:300;
+			line-height:25px;
+		}
+	}
+}
+
+.gr-aboutus__details{
+	.flexBox(@direction, @justify, @align:flex-start);
+	width:55%;
+	align-self: flex-end;
+	
+	.gr-aboutus__details-slide{
+		.flexBox(@direction:row, @justify, @align);
+	}
+
+	.gr-aboutus__details-tabs{
+		.flexBox(@direction:row, @justify:center, @align);
+		align-self: flex-end;
+		
+		.gr-aboutus__tab{
+			.flexBox(@direction:row, @justify:center, @align);
+			width:30px;
+			height:30px;
+			color:white;
+			background-color: #cccccc;
+
+			&:hover{
+				background-color: #51aa92;
+				cursor:pointer;
+			}
+		}
+	}
+}
+
+.gr-twitter{
+	.flexBox(@direction, @justify, @align);
+	margin:auto;
+	padding: 2% 20%;
+	text-align:center;
+	background-color: #51aa92;
+	color:white;
+	font-size:18px;
+	font-weight:100;
+	line-height:23px;
+	
+	span{
+		font-weight:600;
+	}
+
+	.fa-twitter{
+		font-size: 50px;
+		text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+		color: #51aa92;
+	}
+}
